@@ -1,4 +1,4 @@
-import { createTheme } from '@mui/material/styles';
+import { createTheme } from "@mui/material/styles";
 
 /** Think of creating a theme as a two-step composition process:
     first, you define the basic design options; then,
@@ -7,12 +7,7 @@ import { createTheme } from '@mui/material/styles';
 
 let theme = createTheme({
   palette: {
-    primary: {
-      main: '#0052cc',
-    },
-    secondary: {
-      main: '#edf2ff',
-    },
+    mode: "dark", // default to dark mode
   },
 });
 
